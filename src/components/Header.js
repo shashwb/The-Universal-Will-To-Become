@@ -39,25 +39,20 @@ const headerStyles = makeStyles((theme) => ({
  */
 const SiteHeader = (props) => {
 
-  console.log('moment of truth...what is SiteHeader props?', props);
-
   const classes = headerStyles();
-
   const options = props.options;
-
-  // const [ shape, setShape ] = React.useState('Stories');
 
   return (
     <div className={classes.root}>
       <Link to="/" activeClassName={styles.activeNav}>
-        <div className={classes.header} >The Shape Of </div>
+        <div className={classes.header} >The Shape Of Stories</div>
       </Link>
-      <Dropdown 
+      {/* <Dropdown 
         style={{ marginTop: '30px' }}
         options={ Object.keys(options) }
         parent_setShape={props.parent_setShape}
         parent_shape={props.parent_shape}
-          />
+          /> */}
     </div>
   )
 }

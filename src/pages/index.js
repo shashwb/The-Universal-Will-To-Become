@@ -13,7 +13,6 @@ import config from '../../data/SiteConfig'
  * @param { all relevant data for the application passed down as props} data
  */
 const Index = ({ data }) => {
-  alert('LOAD THE MAIN INDEX');
 
   const [shape, setShape] = React.useState('Stories');
 
