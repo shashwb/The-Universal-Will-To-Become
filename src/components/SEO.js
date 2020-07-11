@@ -3,6 +3,10 @@ import Helmet from 'react-helmet'
 import urljoin from 'url-join'
 import config from '../../data/SiteConfig'
 
+/**
+ * Sets up all of the Meta tags for a particular page or post for SEO
+ * @param {} param0 
+ */
 const SEO = ({ postNode, postPath, postSEO }) => {
   let title
   let description

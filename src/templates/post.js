@@ -11,15 +11,21 @@ import styles from './post.module.scss'
 import './prism-okaidia.css'
 
 export default ({ data, pageContext }) => {
+  console.log('POST :: data', data, 'pageContext', pageContext);
   const { slug, nexttitle, nextslug, prevtitle, prevslug } = pageContext
   const postNode = data.markdownRemark
   const post = postNode.frontmatter
   const date = postNode.fields.date
+
+  // WE may have to reverse engineer the Shape based on the current
+
   if (!post.id) {
     post.id = slug
   }
   return (
-    <Layout>
+    <Layout
+
+    >
       <main>
         <Helmet>
           <title>{`${post.title} | ${config.siteTitle}`}</title>

@@ -5,19 +5,36 @@ import Layout from '../layout'
 import PostListing from '../components/PostListing'
 import config from '../../data/SiteConfig'
 
-const CategoryTemplate = ({ data, pageContext }) => (
-  <Layout>
+/**
+ * MATERIAL REACT UI
+ */
+import { makeStyles } from '@material-ui/core/styles';
+
+const CategoryStyles = makeStyles({
+  tag: {
+    color: '#4f647d',
+  }
+})
+
+const CategoryTemplate = ({ data, pageContext }) => {
+
+  const classes = CategoryStyles();
+  console.log(':: CategoryTemplate [template component], data', data, 'pageContext', pageContext);
+  return (
+    <Layout>
     <main>
       <Helmet title={` "${pageContext.category}" - ${config.siteTitle}`} />
       <h1>
-Category:
-{' '}
-{pageContext.category}
-</h1>
+        Regarding...
+        {' '}
+        <div className={classes.tag}>{pageContext.category}</div>
+      </h1>
       <PostListing postEdges={data.allMarkdownRemark.edges} />
     </main>
   </Layout>
-)
+  )
+  
+}
 
 export default CategoryTemplate
 

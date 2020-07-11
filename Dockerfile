@@ -8,5 +8,6 @@ RUN rm package-lock.json
 
 RUN npm install
 RUN npm install -g gatsby-cli
+RUN npm install @material-ui/core
 RUN git config --global user.email "sethbalodi@gmail.com" && git config --global user.name "Seth"
 CMD ["gatsby", "develop", "-H", "0.0.0.0"]

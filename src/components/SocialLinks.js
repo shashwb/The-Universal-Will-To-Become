@@ -54,9 +54,9 @@ const SocialLinks = ({ postNode, postPath, mobile }) => {
           {count => renderShareCount(count)}
         </LinkedinShareCount>
       </LinkedinShareButton>
-      <TelegramShareButton url={url}>
+      {/* <TelegramShareButton url={url}>
         <TelegramIcon round size={iconSize} />
-      </TelegramShareButton>
+      </TelegramShareButton> */}
     </div>
   )
 }
