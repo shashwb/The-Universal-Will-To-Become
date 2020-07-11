@@ -4,6 +4,7 @@ import { Link } from 'gatsby'
 import styles from './PostTags.module.scss'
 
 const PostTags = ({ tags }) => {
+  console.log(':: PostTags [COMPONENT => src/components/PostTags]');
   return (
     <div className={styles.tagContainer}>
       {tags &&

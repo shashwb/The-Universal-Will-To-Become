@@ -3,8 +3,7 @@ title: "The Butterfly of the Edge"
 cover: "https://unsplash.it/1152/300/?random?TheButterflyoftheEdge"
 date: "17/03/2017"
 categories: 
-    - Gatsby
-    - Tech
+    - Hip Hop
 tags:
     - programming
     - more tags

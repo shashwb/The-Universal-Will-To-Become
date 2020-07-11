@@ -10,16 +10,42 @@ import config from '../../data/SiteConfig'
 import styles from './post.module.scss'
 import './prism-okaidia.css'
 
+// lodash
+import _ from 'lodash'
+
 export default ({ data, pageContext }) => {
   const { slug, nexttitle, nextslug, prevtitle, prevslug } = pageContext
   const postNode = data.markdownRemark
   const post = postNode.frontmatter
   const date = postNode.fields.date
+
+  // WE may have to reverse engineer the Shape based on the current category
+  const this_post_category = data.markdownRemark.frontmatter.categories;
+  //figure out which "shape" this calls into
+  const mappings = config.shapesMappingToCategories;
+  console.log('what is this post category?', this_post_category, 'and what are the mappings?', mappings);
+
+
+  let shape_key = Object.keys(mappings).filter(element => {
+    let valuesOfObjectAtKey = mappings[element];
+    return valuesOfObjectAtKey.includes('Television');
+  });
+
+  /** SET HOOKS */
+  // const [postShape, setPostShape] = React.useState(shape_key);
+
+
+  /**
+   * we also need to be able to setShape from here...
+   */
   if (!post.id) {
     post.id = slug
   }
   return (
-    <Layout>
+    <Layout
+      parent_setShape={ setPostShape }
+      parent_shape={ postShape } 
+    >
       <main>
         <Helmet>
           <title>{`${post.title} | ${config.siteTitle}`}</title>
