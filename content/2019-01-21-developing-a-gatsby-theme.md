@@ -1,14 +1,14 @@
 ---
 date: 2019-10-17
-title: 'Developing a Gatsby Theme'
+title: 'The Sirens of Titan'
 thumbnail: '../thumbnails/wp.png'
 cover: "https://unsplash.it/1152/300/?random?BirchintheRoses"
 slug: developing-a-gatsby-theme
 categories: 
     - Stories
 tags:
-  - tag one
-  - gatsby
+  - Kurt Vonnegut
+  - Novel
 ---
 
 ## Accipit alto fecerat mutato centauri haerent dominoque

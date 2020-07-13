@@ -4,11 +4,8 @@ import React from 'react'
 /** STYLES */
 import styles from "./Styles/dropdown_styles.css";
 
-/**
- * MATERIAL REACT UI
- */
+/** MATERIAL REACT UI */
 import { makeStyles } from '@material-ui/core/styles';
-
 
 import FormControl from '@material-ui/core/FormControl';
 import InputLabel from '@material-ui/core/FormControl';
@@ -53,7 +50,6 @@ const Dropdown = props => {
     const classes = dropdownStyles();
     const shapesHolder_styles = shapesHolderStyles();
 
-    // const [ shape, setShape ] = React.useState('Stories');
     const options = (props.options) ? props.options : [];
 
     const handleChange = (event) => {

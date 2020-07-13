@@ -3,12 +3,10 @@ import { Link } from 'gatsby'
 import styles from './PostsListing.module.scss'
 
 const PostListing = ( props ) => {
-  console.log('POST LIST...WHAT IS PROPS?', props);
+  console.log('>> <PostListing />', props);
   const postEdges = props.postEdges;
   const getPostList = () => {
-    // console.log('getPostList...');
     const postList = []
-    // console.log('what is postEdges?', postEdges);
     postEdges.forEach(postEdge => {
       postList.push({
         path: postEdge.node.fields.slug,
@@ -25,10 +23,9 @@ const PostListing = ( props ) => {
   }
 
   const postList = getPostList();
-  console.log('after running post list what happens?', postList);
 
   return (
-    <div className={styles.articleList}>
+      <div className={styles.articleList}>
       {/* Your post list here. */
       postList.map(post => (
         <Link to={post.path} key={post.title}>

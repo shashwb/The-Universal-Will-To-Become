@@ -1,11 +1,13 @@
 ---
 date: 2019-01-22
-title: "Birch in the Rosesss"
+title: "Why We Can't Have Nice Things: Humanity in Nier Automata"
 cover: "https://unsplash.it/1152/300/?random?BirchintheRoses"
 categories: 
+    - Stories
     - Polygons
 tags:
-    - tag one
+    - JRPG
+    - Video Game
 ---
 
 ## Accipit alto fecerat mutato centauri haerent dominoque

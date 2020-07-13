@@ -3,7 +3,7 @@ import { useStaticQuery, graphql, Link } from 'gatsby'
 import _ from 'lodash'
 
 const Categories = props => {
-  console.log(':: Categories [ component ], props', props);
+  console.log(':: <Categories />', props);
   const data = useStaticQuery(graphql`
     query {
       allMarkdownRemark(limit: 2000) {
@@ -15,20 +15,26 @@ const Categories = props => {
     }
   `)
 
-  // console.log('what is the category data?', data);
 
-  const d = [
-    'testing'
-  ]
+
+
 
   return (
     <>
       {data.allMarkdownRemark.group.map(category => (
-        <li key={category.fieldValue}>
+        <li key={category.fieldValue} style={{
+          display: 'block',
+          position: 'relative',
+          float: 'left',
+          textAlign: 'center',
+          marginBottom: '0px',
+          // fontFamily: 'neutron',
+        }}>
           <Link
             to={`/${_.kebabCase(category.fieldValue)}`}
             key={category.fieldValue}
             activeClassName={props.activeClassName}
+            style={{ fontSize: '1em' }}
           >
             {category.fieldValue}
             <strong> ({category.totalCount})</strong>
@@ -41,24 +47,3 @@ const Categories = props => {
 
 export default Categories
 
-// export const pageQuery = graphql`
-// {
-//   allMarkdownRemark(
-//     filter: {
-//       frontmatter: {
-//         categories: {
-//           in: [
-//             "New York City",
-//             "Richmond",
-//           ],
-//         }
-//       }
-//     }
-//   ) {
-//     group(field: frontmatter___categories) {
-//           fieldValue
-//           totalCount
-//     }
-//   }
-// }
-// `
