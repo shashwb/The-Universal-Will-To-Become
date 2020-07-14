@@ -9,7 +9,7 @@
   */
  export function getAllTagsForSection(data=[], currentCategory=false) {
     const category = (currentCategory) ? currentCategory : null;
-    let tagsForAllCategories = data.map((element) => {
+    const tagsForAllCategories = data.map((element) => {
         const categories = element.node.frontmatter.categories;
         const tags = element.node.frontmatter.tags;
         if (categories.includes(category) || category == null) {
@@ -17,12 +17,17 @@
         }
     
       });
+
       console.log('what are the tagsForAllCategories', tagsForAllCategories);
-      tagsForAllCategories = tagsForAllCategories.flat();
-      console.log('[ INSIDE OF THE FUNCTION ] :: what are tagsForAllCategories? AFTER FLAT', tagsForAllCategories);
+      const flattened_tagsForAllCategories = [].concat.apply([], tagsForAllCategories);
+
+      // tagsForAllCategories = tagsForAllCategories.flat();
+      console.log('flattened_tagsForAllCategories', flattened_tagsForAllCategories);
+
+
 
       //remove all nulls
-      const filtered = tagsForAllCategories.filter(Boolean);
+      const filtered = flattened_tagsForAllCategories.filter(Boolean);
       console.log('[INSIDE OF THE FUNCTION...FITLERED', filtered);
 
 
