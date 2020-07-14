@@ -12,7 +12,7 @@ import Dropdown from './Generic/Dropdown';
 
 const headerStyles = makeStyles((theme) => ({
   header: {
-    display: 'inline-block',
+    // display: 'inline-block',
     fontSize: '1.4rem',
     fontFamily: 'neutron',
     fontWeight: 'bold'
@@ -53,31 +53,40 @@ const Header = (props) => {
     <header>
       {/* last thing I'm doing here is trying to create a better grid style and breakpoints on the blog */}
         <SiteHeader />
-        <nav style={{ textAlign: 'center' }}>
-          <ul className={styles.mainNav}>
-            <Categories activeClassName={styles.activeNav} />
-          </ul>
-        </nav>
-
-        <nav style={{ 
-          // textAlign: 'center', 
-          // marginBottom: '20px' 
+        <div style={{
+          display: 'flex',
+          justifyContent: 'space-between'
         }}>
-          <ul className={styles.mainNav}>
-            <li style={{
-              textAlign: 'center'
-            }}>
-              <Link to="/about" activeClassName={styles.activeNav}>
-                About
-              </Link>
-            </li>
-            <li>
-              <Link to="/contact" activeClassName={styles.activeNav}>
-                Contact
-              </Link>
-            </li>
-          </ul>
-        </nav>
+          <nav style={{ 
+            textAlign: 'center',
+            //  display: 'inline-block'
+          }}>
+            <ul className={styles.mainNav}>
+              <Categories activeClassName={styles.activeNav} />
+            </ul>
+          </nav>
+
+          <nav style={{ 
+            // display: 'inline-block',
+            // textAlign: 'center', 
+            // marginBottom: '20px' 
+          }}>
+            <ul className={styles.mainNav}>
+              <li style={{
+                textAlign: 'center'
+              }}>
+                <Link to="/about" activeClassName={styles.activeNav}>
+                  About
+                </Link>
+              </li>
+              <li>
+                <Link to="/contact" activeClassName={styles.activeNav}>
+                  Contact
+                </Link>
+              </li>
+            </ul>
+          </nav>
+        </div>
     </header>
   )
 }
