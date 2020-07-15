@@ -1,15 +1,14 @@
 ---
 date: 2019-10-17
-title: 'Developing a Gatsby Theme'
+title: 'A Vonnegutian Tale: The Sirens of Titan and What it Says About Our Place in the Universe'
 thumbnail: '../thumbnails/wp.png'
 cover: "https://unsplash.it/1152/300/?random?BirchintheRoses"
 slug: developing-a-gatsby-theme
 categories: 
-    - Nodejs
-    - Creative Thinking
+    - Stories
 tags:
-  - tag one
-  - gatsby
+  - Kurt Vonnegut
+  - Analysis
 ---
 
 ## Accipit alto fecerat mutato centauri haerent dominoque

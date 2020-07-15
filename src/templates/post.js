@@ -10,52 +10,62 @@ import config from '../../data/SiteConfig'
 import styles from './post.module.scss'
 import './prism-okaidia.css'
 
+/** MATERIAL REACT UI */
+import Paper from '@material-ui/core/Paper'
+
 export default ({ data, pageContext }) => {
   const { slug, nexttitle, nextslug, prevtitle, prevslug } = pageContext
   const postNode = data.markdownRemark
   const post = postNode.frontmatter
   const date = postNode.fields.date
+
+
   if (!post.id) {
     post.id = slug
   }
   return (
     <Layout>
-      <main>
-        <Helmet>
-          <title>{`${post.title} | ${config.siteTitle}`}</title>
-        </Helmet>
-        <SEO postPath={slug} postNode={postNode} postSEO />
-        <div>
-          <h1>{post.title}</h1>
-          <p className={styles.postMeta}>
-            {date} &mdash; {postNode.timeToRead} Min Read{' '}
-          </p>
-          <div className={styles.postMeta}>
-            <PostTags tags={post.tags} />
-          </div>
-          <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
+        <main>
+          <Paper style={{ padding: '30px'}} >
 
-          <hr />
-          <Bio config={config} />
-          <div className={styles.postMeta}>
-            <SocialLinks postPath={slug} postNode={postNode} />
+          <Helmet>
+            <title>{`${post.title} | ${config.siteTitle}`}</title>
+          </Helmet>
+          <SEO postPath={slug} postNode={postNode} postSEO />
+          <div>
+            <h1>{post.title}</h1>
+            <p className={styles.postMeta}>
+              {date} &mdash; {postNode.timeToRead} Min Read{' '}
+            </p>
+            <div className={styles.postMeta}>
+              <PostTags tags={post.tags} />
+            </div>
+            <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
+
+            <hr />
+            <Bio config={config} />
+            <div className={styles.postMeta}>
+              <SocialLinks postPath={slug} postNode={postNode} />
+            </div>
           </div>
-        </div>
-        <nav>
-          <ul className={styles.pagination}>
-            <li>
-              <Link to={prevslug} rel="prev">
-                ← {prevtitle}
-              </Link>
-            </li>
-            <li>
-              <Link to={nextslug} rel="next">
-                {nexttitle}→
-              </Link>
-            </li>
-          </ul>
-        </nav>
-      </main>
+          <nav>
+            <ul className={styles.pagination}>
+              <li>
+                <Link to={prevslug} rel="prev">
+                  ← {prevtitle}
+                </Link>
+              </li>
+              <li>
+                <Link to={nextslug} rel="next">
+                  {nexttitle}→
+                </Link>
+              </li>
+            </ul>
+          </nav>
+          </Paper>
+
+        </main>
+
     </Layout>
   )
 }
