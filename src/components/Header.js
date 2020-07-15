@@ -18,7 +18,6 @@ const headerStyles = makeStyles((theme) => ({
     fontWeight: 'bold'
   },
   root: {
-    // flexGrow: 1,
   }
 }));
 
@@ -34,12 +33,6 @@ const SiteHeader = (props) => {
       <Link to="/" activeClassName={styles.activeNav}>
         <div className={classes.header} >The Shape Of Stories</div>
       </Link>
-      {/* <Dropdown 
-        style={{ marginTop: '30px' }}
-        options={ Object.keys(options) }
-        parent_setShape={props.parent_setShape}
-        parent_shape={props.parent_shape}
-          /> */}
     </div>
   )
 }
@@ -55,11 +48,12 @@ const Header = (props) => {
         <SiteHeader />
         <div style={{
           display: 'flex',
-          justifyContent: 'space-between'
+          justifyContent: 'space-between',
+          flexWrap: 'wrap',
         }}>
           <nav style={{ 
             textAlign: 'center',
-            //  display: 'inline-block'
+             display: 'inline-block'
           }}>
             <ul className={styles.mainNav}>
               <Categories activeClassName={styles.activeNav} />
@@ -67,9 +61,8 @@ const Header = (props) => {
           </nav>
 
           <nav style={{ 
-            // display: 'inline-block',
-            // textAlign: 'center', 
-            // marginBottom: '20px' 
+            display: 'inline-block',
+            textAlign: 'center', 
           }}>
             <ul className={styles.mainNav}>
               <li style={{

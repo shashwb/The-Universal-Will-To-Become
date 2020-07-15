@@ -15,21 +15,13 @@
         if (categories.includes(category) || category == null) {
           return tags;
         }
-    
       });
 
-      console.log('what are the tagsForAllCategories', tagsForAllCategories);
+      //flatten all tags
       const flattened_tagsForAllCategories = [].concat.apply([], tagsForAllCategories);
-
-      // tagsForAllCategories = tagsForAllCategories.flat();
-      console.log('flattened_tagsForAllCategories', flattened_tagsForAllCategories);
-
-
 
       //remove all nulls
       const filtered = flattened_tagsForAllCategories.filter(Boolean);
-      console.log('[INSIDE OF THE FUNCTION...FITLERED', filtered);
-
 
       // return a new unique set
       return Array.from(new Set(filtered));

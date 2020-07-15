@@ -1,9 +1,13 @@
 ---
 date: 2017-04-22
-title: "Nevermind"
+title: "The Age of Angst: Nirvana Nevermind Album Review"
 cover: "https://unsplash.it/1152/300/?random?FaityWitch"
 categories: 
     - Sounds
+tags: 
+    - Nirvana
+    - Rock
+    - Review
 ---
 
 ## Ait oculos

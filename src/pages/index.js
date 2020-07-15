@@ -21,11 +21,9 @@ import { getAllTagsForSection } from '../Utility/Helpers'
  * @param { all relevant data for the application passed down as props} data
  */
 const Index = ({ data }) => { 
-  console.log('what is hte main INDEX??? data', data);
 
+  /** get all overall tags for all posts (MAIN PAGE) */
   const allTagsForAllCategories = getAllTagsForSection(data.allMarkdownRemark.edges);
-  console.log('what are all tags for all categories?', allTagsForAllCategories);
-
 
   return (
       <Layout>
@@ -45,17 +43,6 @@ const Index = ({ data }) => {
 }
 
 export default Index
-
-
-
-/**
- * TODO :: we have to create different queries depending on which 'Story" is selected
- * 
- * we use the config file to determine which things we query for
- * 
- * 
- */
-/* eslint no-undef: "off" */
 
 export const pageQuery = graphql`
   query IndexQuery {

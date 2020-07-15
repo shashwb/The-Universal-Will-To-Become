@@ -3,7 +3,6 @@ import { useStaticQuery, graphql, Link } from 'gatsby'
 import _ from 'lodash'
 
 const Categories = props => {
-  console.log(':: <Categories />', props);
   const data = useStaticQuery(graphql`
     query {
       allMarkdownRemark(limit: 2000) {
@@ -14,10 +13,6 @@ const Categories = props => {
       }
     }
   `)
-
-
-
-
 
   return (
     <>

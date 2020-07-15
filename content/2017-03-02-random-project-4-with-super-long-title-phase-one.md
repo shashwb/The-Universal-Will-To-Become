@@ -1,11 +1,12 @@
 ---
 date: 2017-03-02
-title: "Shadow of the Collosus"
+title: "The Necessity of Silence: A First-Timer's Ups and Downs with Shadow of the Collosus"
 cover: "https://unsplash.it/1152/300/?random?SuperLong"
 categories: 
     - Polygons
 tags:
-    - say hi
+    - Video Games
+    - Analysis
 ---
 
 ## Mendaci pinu ipsi nunc

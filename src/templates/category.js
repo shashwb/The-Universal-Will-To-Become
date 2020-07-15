@@ -34,9 +34,6 @@ const CategoryTemplate = ({ data, pageContext }) => {
   //helper function
   const unique_tagsForAllCategories = getAllTagsForSection(data.allMarkdownRemark.edges, currentCategory);
 
-  console.log('::: what is unique_tagsForAllCategories', unique_tagsForAllCategories);
-
-
   return (
     <Layout>
       <main>

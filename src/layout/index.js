@@ -13,7 +13,6 @@ import Categories from '../components/Categories'
 import Paper from '@material-ui/core/Paper'
 
 const MainLayout = (props) => {
-  console.log('>> <Layout /> rendered');
   return (
     <>
       <div style={{
