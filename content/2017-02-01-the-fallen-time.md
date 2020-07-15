@@ -2,11 +2,11 @@
 date: 2017-02-01
 title: "From The (Political) Perspective of the Youth: Eden of the East"
 cover: "https://unsplash.it/400/300/?random?TheFallenTime"
-# categories: 
-#     - Stories
-# tags:
-#     - Anime
-#     - Analysis
+categories: 
+    - Stories
+tags:
+    - Anime
+    - Analysis
 ---
 
 ## Hoc domum solitos veteremque nostrum

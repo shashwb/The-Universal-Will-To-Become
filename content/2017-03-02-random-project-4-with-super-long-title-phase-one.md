@@ -1,4 +1,4 @@
----
+<!-- ---
 date: 2017-03-02
 title: "The Necessity of Silence: A First-Timer's Ups and Downs with Shadow of the Collosus"
 cover: "https://unsplash.it/1152/300/?random?SuperLong"
@@ -51,4 +51,4 @@ panda electae Daedalion.
 > artes velatos, sensit fida mihi: negabo.
 > [Tum](http://www.mea-pars.net/temptanti) desubito radere tendens **fuit**.
 
-Quibus **se intus montibus**. Auro terrae: mare e adulterium, per dolet et.
+Quibus **se intus montibus**. Auro terrae: mare e adulterium, per dolet et. -->
