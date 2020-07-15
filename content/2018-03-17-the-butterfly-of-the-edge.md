@@ -1,16 +1,13 @@
 ---
-title: "The Butterfly of the Edge"
+title: "Youth in Ignorance: Why I'm Convinced We Live in a Simulation"
 cover: "https://unsplash.it/1152/300/?random?TheButterflyoftheEdge"
 date: "17/03/2017"
 categories: 
-    - Stories
+    - Life
 tags:
-    - programming
-    - more tags
-    - testing
-    - another one
-    - stuff
-    - other
+    - Essay
+    - Philosophy
+    - Morality & Ethics
 ---
 
 ## Cognoscenti audeat ulterius sublimia terga potiorque saxo

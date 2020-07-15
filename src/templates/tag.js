@@ -6,7 +6,6 @@ import PostListing from '../components/PostListing'
 import config from '../../data/SiteConfig'
 
 const TagTemplate = ({ data, pageContext }) => {
-    console.log('>> TAG TEMPLATE :: data', data, 'pageContext', pageContext);
     return (
     <Layout>
       <main>

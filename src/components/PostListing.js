@@ -3,12 +3,9 @@ import { Link } from 'gatsby'
 import styles from './PostsListing.module.scss'
 
 const PostListing = ( props ) => {
-  console.log('POST LIST...WHAT IS PROPS?', props);
   const postEdges = props.postEdges;
   const getPostList = () => {
-    // console.log('getPostList...');
     const postList = []
-    // console.log('what is postEdges?', postEdges);
     postEdges.forEach(postEdge => {
       postList.push({
         path: postEdge.node.fields.slug,
@@ -25,25 +22,25 @@ const PostListing = ( props ) => {
   }
 
   const postList = getPostList();
-  console.log('after running post list what happens?', postList);
 
   return (
-    <div className={styles.articleList}>
-      {/* Your post list here. */
-      postList.map(post => (
-        <Link to={post.path} key={post.title}>
-          <article className={styles.articleBox}>
-            <div className={styles.right}>
-              <h3>{post.title}</h3>
-              <div className={styles.meta}>
-                {post.date} &mdash; <span>{post.categories.join(' / ')}</span>{' '}
-                &mdash; {post.timeToRead} Min Read{' '}
+      <div className={styles.articleList}>
+      {
+        postList.map(post => (
+          <Link to={post.path} key={post.title}>
+            <article className={styles.articleBox}>
+              <div className={styles.right}>
+                <h3>{post.title}</h3>
+                <div className={styles.meta}>
+                  {post.date} &mdash; <span>{post.categories.join(' / ')}</span>{' '}
+                  &mdash; {post.timeToRead} Min Read{' '}
+                </div>
+                <p>{post.excerpt}</p>
               </div>
-              <p>{post.excerpt}</p>
-            </div>
-          </article>
-        </Link>
-      ))}
+            </article>
+          </Link>
+        ))
+      }
     </div>
   )
 }

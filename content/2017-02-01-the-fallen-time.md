@@ -1,13 +1,12 @@
 ---
 date: 2017-02-01
-title: "The Fallen Time"
+title: "From The (Political) Perspective of the Youth: Eden of the East"
 cover: "https://unsplash.it/400/300/?random?TheFallenTime"
 categories: 
     - Stories
 tags:
-    - test
-    - something
-    - tagging
+    - Anime
+    - Analysis
 ---
 
 ## Hoc domum solitos veteremque nostrum
