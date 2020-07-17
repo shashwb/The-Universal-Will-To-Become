@@ -1,15 +1,13 @@
-<!-- ---
+---
 date: 2017-02-01
-title: "In Defense Of I: Batman vs. Superman: Dawn of Justice"
+title: "A Vonnegutian Stroll through the Galaxy: The Sirens of Titan"
 cover: "https://unsplash.it/400/300/?random?TheFallenTime"
 categories: 
     - Stories
 tags:
-    - In Defense Of
-    - Movies
-    - Comic Book
     - Analysis
-    - Essay
+    - Kurt Vonnegut
+    - Science Fiction
 ---
 
 ## Hoc domum solitos veteremque nostrum
@@ -83,4 +81,4 @@ ebrius.
 
 Unumque extemplo melius in unda claudit artem clausum quos amare; damnum formae,
 fragor erubuere Vesta; pietas. Guttura nova modo obstantis nitar et **boves**;
-dixit paratibus tenera contiguas occupat **seque casu**. -->
+dixit paratibus tenera contiguas occupat **seque casu**.
