@@ -1,4 +1,4 @@
----
+<!-- ---
 date: 2019-10-17
 title: 'A Vonnegutian Tale: The Sirens of Titan and What it Says About Our Place in the Universe'
 thumbnail: '../thumbnails/wp.png'
@@ -58,4 +58,4 @@ utinam sed, non nemo mixtos thyrsos. Inobservata subsunt.
 Coniuge contraxit in flagrantis et sacra Paridis pietas nymphas dextra et aequor
 erat insignia virginei medi. Acervo ferrum! Undecimus rabiemque elusam superesse
 *tantos crinibus*: bellum Iuno an celeberrima nostraque arcumque. Sive quod
-inter Cynthia est gemitu crimina sis, et preces cuncta tamen?
+inter Cynthia est gemitu crimina sis, et preces cuncta tamen? -->

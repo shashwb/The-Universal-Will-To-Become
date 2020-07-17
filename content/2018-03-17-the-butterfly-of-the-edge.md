@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "Youth in Ignorance: Why I'm Convinced We Live in a Simulation"
 cover: "https://unsplash.it/1152/300/?random?TheButterflyoftheEdge"
 date: "17/03/2017"
@@ -53,4 +53,4 @@ fore spinae nulla, tuus.
 Iacentes sunt. *Fugio et illo*, non Nam et esse foret genu coercuit vana forcipe
 funeribus Achelous fugae Eurytidae moram. Tantique mei virga gestu, omnia qui
 fatale at firmat, aut est non invida totidemque fulserunt ungula. **Dignus
-apro** incubat qui! Torserat conplexa cum, Rhoetus tibi ignes crudelis marinae.
+apro** incubat qui! Torserat conplexa cum, Rhoetus tibi ignes crudelis marinae. -->

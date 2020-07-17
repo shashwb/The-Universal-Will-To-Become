@@ -1,12 +1,12 @@
 ---
 date: 2017-03-02
-title: "The Necessity of Silence: A First-Timer's Ups and Downs with Shadow of the Collosus"
+title: "Technopessimism: Tweeting a Picture of the Glass Half Empty"
 cover: "https://unsplash.it/1152/300/?random?SuperLong"
 categories: 
-    - Polygons
+    - Thought
 tags:
-    - Video Games
-    - Analysis
+    - Essays
+    - Philosophy
 ---
 
 ## Mendaci pinu ipsi nunc

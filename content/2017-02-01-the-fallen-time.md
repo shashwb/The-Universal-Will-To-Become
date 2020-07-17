@@ -1,12 +1,15 @@
----
+<!-- ---
 date: 2017-02-01
-title: "From The (Political) Perspective of the Youth: Eden of the East"
+title: "In Defense Of I: Batman vs. Superman: Dawn of Justice"
 cover: "https://unsplash.it/400/300/?random?TheFallenTime"
 categories: 
     - Stories
 tags:
-    - Anime
+    - In Defense Of
+    - Movies
+    - Comic Book
     - Analysis
+    - Essay
 ---
 
 ## Hoc domum solitos veteremque nostrum
@@ -80,4 +83,4 @@ ebrius.
 
 Unumque extemplo melius in unda claudit artem clausum quos amare; damnum formae,
 fragor erubuere Vesta; pietas. Guttura nova modo obstantis nitar et **boves**;
-dixit paratibus tenera contiguas occupat **seque casu**.
+dixit paratibus tenera contiguas occupat **seque casu**. -->
