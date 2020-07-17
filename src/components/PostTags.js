@@ -3,7 +3,8 @@ import _ from 'lodash'
 import { Link } from 'gatsby'
 import styles from './PostTags.module.scss'
 
-const PostTags = ({ tags }) => {
+const PostTags = ( props ) => {
+  const tags = props.tags;
   return (
     <div className={styles.tagContainer}>
       {tags &&

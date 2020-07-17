@@ -1,11 +1,12 @@
 ---
 date: 2017-03-02
-title: "Random project 4 With Super Long Title Phase One"
+title: "Technopessimism: Tweeting a Picture of the Glass Half Empty"
 cover: "https://unsplash.it/1152/300/?random?SuperLong"
 categories: 
-    - Gatsby
+    - Thought
 tags:
-    - say hi
+    - Essays
+    - Philosophy
 ---
 
 ## Mendaci pinu ipsi nunc

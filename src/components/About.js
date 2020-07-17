@@ -1,10 +1,16 @@
 import React from 'react'
 
+
+/**
+ * What is the purpose of these blogs?
+ * TODO:
+ * we should have a separate 'About' section based on which of the 'Shapes' you're in
+ */
 const About = () => (
   <>
-    <h1>Edit About component or pages/about.js to include your information.</h1>
-    <h2>Dealt with the repercussions of my actions.</h2>
-    <h3>Fell in love through photograph, I don't even know your name. Wonder if you follow back. I hope to see you one day.</h3>
+    <h1>Insert Kurt Vonnegut Quote</h1>
+    <h2>Explain the different "Shapes"</h2>
+    <h3>Who am I? Developer based in New York City</h3>
   </>
 )
 

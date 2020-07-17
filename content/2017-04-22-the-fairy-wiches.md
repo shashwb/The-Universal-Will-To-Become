@@ -1,9 +1,13 @@
----
+<!-- ---
 date: 2017-04-22
-title: "The Fairy's Witches"
+title: "The Age of Angst: Nirvana Nevermind Album Review"
 cover: "https://unsplash.it/1152/300/?random?FaityWitch"
 categories: 
-    - Gatsby
+    - Sounds
+tags: 
+    - Nirvana
+    - Rock
+    - Review
 ---
 
 ## Ait oculos
@@ -48,4 +52,4 @@ mitissima, hanc nec sonat illo vocandus placido salus.
 5. Dumque moenia amnes coniugium dumque in saxa
 
 Si patres terram! Mille habenas tractataque forte. Tenebris viscera gelidos
-fuit? Hamos deinde longique quisquis pugnat moriens, nec Tmolo **ferebat**.
+fuit? Hamos deinde longique quisquis pugnat moriens, nec Tmolo **ferebat**. -->
