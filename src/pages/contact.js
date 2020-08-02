@@ -7,10 +7,11 @@ const ContactPage = () => (
   <Layout>
     <main>
       <Helmet title={`Contact | ${config.siteTitle}`} />
-      <h1>Let's Chat</h1>
-      <p>theshapeof@gmail.com</p>
+      <h1>Let's Chat!</h1>
+      <p>
+        <a href="theshapesofstories@gmail.com">theshapeofstories@gmail.com</a>
+      </p>
       <p></p><br/>
-      <p>New York City</p>
     </main>
   </Layout>
 )

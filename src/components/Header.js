@@ -72,11 +72,11 @@ const Header = (props) => {
                   About
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/contact" activeClassName={styles.activeNav}>
                   Contact
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </nav>
         </div>

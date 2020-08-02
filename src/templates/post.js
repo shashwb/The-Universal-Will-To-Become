@@ -27,7 +27,6 @@ export default ({ data, pageContext }) => {
     <Layout>
         <main>
           <Paper style={{ padding: '30px'}} >
-
           <Helmet>
             <title>{`${post.title} | ${config.siteTitle}`}</title>
           </Helmet>

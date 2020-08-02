@@ -31,9 +31,34 @@ const PostListing = ( props ) => {
             <article className={styles.articleBox}>
               <div className={styles.right}>
                 <h3>{post.title}</h3>
-                <div className={styles.meta}>
+                <div className={styles.meta} style={{ marginBottom: '10px' }} >
                   {post.date} &mdash; <span>{post.categories.join(' / ')}</span>{' '}
                   &mdash; {post.timeToRead} Min Read{' '}
+                </div>
+                <div 
+                  style={{ 
+                    display: 'inline-block',
+                     marginBottom: '10px' 
+                    }}
+                >
+                  {
+                    post.tags.map(tag => {
+                      return (
+                        <span
+                          style={{
+                              fontSize: '0.5rem',
+                              padding: '0.3rem .6rem',
+                              margin: '0.3rem',
+                              borderRadius: '3px',
+                              border: '1px solid #17171714',
+                              color: 'rgba(0, 0, 0, 0.54)',
+                          }}
+                        >
+                          {tag}
+                        </span>
+                      );
+                    })
+                  }
                 </div>
                 <p>{post.excerpt}</p>
               </div>
