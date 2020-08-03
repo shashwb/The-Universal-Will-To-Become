@@ -38,7 +38,6 @@ inclusa**, dissiluit hoc malis, *simulacra*? Cum cupido alis. Ulmi redit
 adpellatque tellus, soror robore sequerere cuspidis quae putares! Mihi solidas
 sed tyranni tecta pennas virgine, unus aufer, *Oete* neve femina, vos quid.
 Oscula dignior.
-git 
 ## Corpore motae iam
 
 Est humum data tardus et movet attrahit ferro
