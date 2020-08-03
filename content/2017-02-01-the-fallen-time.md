@@ -1,14 +1,13 @@
 ---
 date: 2017-02-01
-title: "The Fallen Time"
+title: "A Vonnegutian Stroll through the Galaxy: The Sirens of Titan"
 cover: "https://unsplash.it/400/300/?random?TheFallenTime"
 categories: 
-    - Tech
-    - React
+    - Stories
 tags:
-    - test
-    - something
-    - tagging
+    - Analysis
+    - Kurt Vonnegut
+    - Science Fiction
 ---
 
 ## Hoc domum solitos veteremque nostrum

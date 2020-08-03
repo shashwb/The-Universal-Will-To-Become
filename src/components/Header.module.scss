@@ -89,6 +89,7 @@ header {
 
 @media (max-width: 768px) {
   header {
+    height: 120px;
     strong {
       display: none;
     }
@@ -104,10 +105,17 @@ header {
 }
 
 @media (max-width: 520px) {
+  header {
+    height: 200px;
+  }
   header nav a {
     font-size: 0.7rem;
     border: 1px solid #eee;
     padding: 2px;
     border-radius: 5px;
   }
+}
+
+p {
+  font-family: "nyt-imperial,georgia,'times new roman',times,serif";
 }
