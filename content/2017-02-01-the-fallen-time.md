@@ -1,13 +1,13 @@
 ---
-date: 2017-02-01
-title: "A Vonnegutian Stroll through the Galaxy: The Sirens of Titan"
+date: 2020-08-07
+title: "Why Ought We Vote?"
 cover: "https://unsplash.it/400/300/?random?TheFallenTime"
 categories: 
-    - Stories
+    - Thought
 tags:
-    - Analysis
-    - Kurt Vonnegut
-    - Science Fiction
+    - Philosophy
+    - In Defense Of
+    - Essay
 ---
 
 ## Hoc domum solitos veteremque nostrum

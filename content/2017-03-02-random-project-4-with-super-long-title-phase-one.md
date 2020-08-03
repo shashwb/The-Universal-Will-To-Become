@@ -1,12 +1,15 @@
-<!-- ---
-date: 2017-03-02
-title: "Technopessimism: Tweeting a Picture of the Glass Half Empty"
+---
+date: 2020-08-24
+title: "The Sirens of Titan: A Literary Case Against Free Will"
 cover: "https://unsplash.it/1152/300/?random?SuperLong"
 categories: 
-    - Thought
+    - Stories
 tags:
     - Essays
     - Philosophy
+    - Novels
+    - Kurt Vonnegut
+    - Free Will
 ---
 
 ## Mendaci pinu ipsi nunc
@@ -51,4 +54,4 @@ panda electae Daedalion.
 > artes velatos, sensit fida mihi: negabo.
 > [Tum](http://www.mea-pars.net/temptanti) desubito radere tendens **fuit**.
 
-Quibus **se intus montibus**. Auro terrae: mare e adulterium, per dolet et. -->
+Quibus **se intus montibus**. Auro terrae: mare e adulterium, per dolet et.

@@ -1,6 +1,6 @@
 ---
-date: 2017-03-02
-title: "Technopessimism: Tweeting a Picture of the Glass Half Empty"
+date: 2020-08-07
+title: "Technopessimism: A Million Little Addictions"
 cover: "https://unsplash.it/1152/300/?random?SuperLong"
 categories: 
     - Thought
