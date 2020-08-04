@@ -9,7 +9,7 @@ const config = {
     'Here we are, trapped in the amber of the moment. There is no why.', // Website description used for RSS feeds/meta description tag.
   siteRss: '/rss.xml', // Path to the RSS file.
   siteFBAppID: '1825356251115265', // FB Application ID for using app insights
-  googleAnalyticsID: 'UA-161211056-1', // GA tracking ID.
+  googleAnalyticsID: 'UA-174518366-1', // GA tracking ID.
   dateFromFormat: 'YYYY-MM-DD', // Date format used in the frontmatter.
   dateFormat: 'DD/MM/YYYY', // Date format for display.
   userName: 'Seth Anand', // Username to display in the author segment.
