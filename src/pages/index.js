@@ -24,6 +24,7 @@ const Index = ({ data }) => {
 
   /** get all overall tags for all posts (MAIN PAGE) */
   const allTagsForAllCategories = getAllTagsForSection(data.allMarkdownRemark.edges);
+  console.log('<Index /> Page....allTagsForAlLCategories', allTagsForAllCategories, 'data', data);
 
   return (
       <Layout>
@@ -33,9 +34,9 @@ const Index = ({ data }) => {
           <Paper>
             <PostTags tags={allTagsForAllCategories} />
           </Paper>
-          <Paper style={{ padding: '20px'}}>
+          {/* <Paper style={{ padding: '20px'}}> */}
             <PostListing postEdges={data.allMarkdownRemark.edges} />
-          </Paper>
+          {/* </Paper> */}
         </main>
       </Layout>
   )

@@ -3,7 +3,7 @@ date: 2020-08-24
 title: "The Sirens of Titan: A Literary Case Against Free Will"
 cover: "https://unsplash.it/1152/300/?random?SuperLong"
 categories: 
-    - Stories
+    - Essays
 tags:
     - Essays
     - Philosophy

@@ -1,7 +1,7 @@
 const config = {
-  siteTitle: 'The Shape of Stories', // Site title.
-  siteTitleShort: 'The Shape of Stories', // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
-  siteTitleAlt: 'The Shape of Stories', // Alternative site title for SEO.
+  siteTitle: 'The Universal Will To Become', // Site title.
+  siteTitleShort: 'TUWTB', // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
+  siteTitleAlt: 'TUWTB', // Alternative site title for SEO.
   siteLogo: '/logos/logo-1024.png', // Logo used for SEO and manifest.
   siteUrl: 'https://gatsby-markdown-blog-starter.netlify.com', // Domain of your website without pathPrefix.
   pathPrefix: '', // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.

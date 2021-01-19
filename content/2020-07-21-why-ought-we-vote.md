@@ -3,7 +3,7 @@ date: 2020-08-07
 title: "Technopessimism: A Million Little Addictions"
 cover: "https://unsplash.it/1152/300/?random?SuperLong"
 categories: 
-    - Thought
+    - Essays
 tags:
     - Essays
     - Philosophy

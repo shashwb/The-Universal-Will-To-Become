@@ -3,7 +3,7 @@ date: 2020-08-07
 title: "Why Ought We Vote?"
 cover: "https://unsplash.it/400/300/?random?TheFallenTime"
 categories: 
-    - Thought
+    - Essays
 tags:
     - Philosophy
     - In Defense Of

@@ -1,6 +1,6 @@
 .article-list {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 100%;
 
     .article-box {
         margin-bottom: 30px;
@@ -26,8 +26,21 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 1600px) {
     .article-list {
-        grid-template-columns: 100%;
+        grid-template-columns: 50% 50%;
     }
 }
+
+article {
+    border: 0.5px solid #00000010;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+
+// @media (max-width: 768px) {
+//     .article-list {
+//         grid-template-columns: 100%;
+//     }
+// }

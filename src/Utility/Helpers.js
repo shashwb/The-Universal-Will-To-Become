@@ -9,6 +9,7 @@
   */
  export function getAllTagsForSection(data=[], currentCategory=false) {
     const category = (currentCategory) ? currentCategory : null;
+    console.log('...getAllTagsForSelection, category', category);
     const tagsForAllCategories = data.map((element) => {
         const categories = element.node.frontmatter.categories;
         const tags = element.node.frontmatter.tags;

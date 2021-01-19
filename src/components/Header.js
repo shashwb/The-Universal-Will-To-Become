@@ -31,7 +31,7 @@ const SiteHeader = (props) => {
   return (
     <div className={classes.root}>
       <Link to="/" activeClassName={styles.activeNav}>
-        <div className={classes.header} >The Shape Of Stories</div>
+        <div className={classes.header} >The Universal Will To Become</div>
       </Link>
     </div>
   )
@@ -68,9 +68,11 @@ const Header = (props) => {
               <li style={{
                 textAlign: 'center'
               }}>
+                {/*
+                  TURNED OFF TEMPORARILY
                 <Link to="/about" activeClassName={styles.activeNav}>
                   About
-                </Link>
+                </Link> */}
               </li>
               {/* <li>
                 <Link to="/contact" activeClassName={styles.activeNav}>

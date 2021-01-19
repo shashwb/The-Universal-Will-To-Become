@@ -3,7 +3,7 @@ date: 2020-08-07
 title: "The Reasons We Code"
 cover: "https://unsplash.it/400/300/?random?TheFallenTime"
 categories: 
-    - Bytes
+    - Podcast
 tags:
     - Programming
     - Essay

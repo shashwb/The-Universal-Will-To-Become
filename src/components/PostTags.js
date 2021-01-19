@@ -5,6 +5,7 @@ import styles from './PostTags.module.scss'
 
 const PostTags = ( props ) => {
   const tags = props.tags;
+  console.log("<PostTags />, props", props, 'tags', tags);
   return (
     <div className={styles.tagContainer}>
       {tags &&
